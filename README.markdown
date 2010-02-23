@@ -30,25 +30,25 @@ To install via Git:
 
 		mkdir -p ~/Library/Application\ Support/TextMate/Bundles
 		cd ~/Library/Application\ Support/TextMate/Bundles
-		git clone git://github.com/drnic/github-tmbundle.git "GitHub.tmbundle"
+		git clone git@github.com:Groxx/github-tmbundle.git "GitHub.tmbundle"
 		osascript -e 'tell app "TextMate" to reload bundles'
 
-Source can be viewed or forked via GitHub: [http://github.com/drnic/github-tmbundle/tree/master](http://github.com/drnic/github-tmbundle/tree/master)
+Source can be viewed or forked via GitHub: [http://github.com/Groxx/github-tmbundle](http://github.com/Groxx/github-tmbundle)
 
 To install without Git:
 
 		mkdir -p ~/Library/Application\ Support/TextMate/Bundles
 		cd ~/Library/Application\ Support/TextMate/Bundles
-		wget http://github.com/drnic/github-tmbundle/tarball/master
-		tar zxf drnic-github-tmbundle*.tar.gz
-		rm drnic-github-tmbundle*.tar.gz
-		mv drnic-github-tmbundle* GitHub.tmbundle
+		wget http://github.com/Groxx/github-tmbundle/tarball/master
+		tar zxf Groxx-github-tmbundle*.tar.gz
+		rm Groxx-github-tmbundle*.tar.gz
+		mv Groxx-github-tmbundle* GitHub.tmbundle
 		osascript -e 'tell app "TextMate" to reload bundles'
 
 To enable [Gist](http://gist.github.com) support, make sure you've followed the instructions on your [account page](https://github.com/account) for adding your GitHub user and API Token to your global Git config. You can
 create gists without specifying your credentials, but they won't be associated with your account.
 
-Author
+Original Author - Forked from drnic 2010-02-23
 ======
 
 Dr Nic Williams, drnicwilliams@gmail.com, [http://drnicwilliams.com](http://drnicwilliams.com)
@@ -59,3 +59,12 @@ With contributions from:
 * [Mathias Meyer](http://github.com/mattmatt)
 * [Geoff Cheshire](http://github.com/gtcaz)
 * [Loren Segal](http://github.com/lsegal)
+
+Current Author
+======
+
+Steven Littiebrant
+
+With contributions from:
+
+* [Dmitry Shaposhnik](http://github.com/daemon)
