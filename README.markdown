@@ -30,7 +30,7 @@ To install via Git:
 
 		mkdir -p ~/Library/Application\ Support/TextMate/Bundles
 		cd ~/Library/Application\ Support/TextMate/Bundles
-		git clone git@github.com:Groxx/github-tmbundle.git "GitHub.tmbundle"
+		git clone git://github.com/Groxx/github-tmbundle.git "GitHub.tmbundle"
 		osascript -e 'tell app "TextMate" to reload bundles'
 
 Source can be viewed or forked via GitHub: [http://github.com/Groxx/github-tmbundle](http://github.com/Groxx/github-tmbundle)
@@ -67,4 +67,4 @@ Steven Littiebrant
 
 With contributions from:
 
-* [Dmitry Shaposhnik](http://github.com/daemon)
+* [Dmitry Shaposhnik](http://github.com/daemon) - Gist.send -> Gist.write
